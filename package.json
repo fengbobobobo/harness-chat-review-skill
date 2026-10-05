@@ -1,0 +1,12 @@
+{
+  "name": "dsh-chat-review-skill-beta",
+  "version": "0.1.0-beta",
+  "private": true,
+  "type": "module",
+  "description": "Windows 微信、钉钉、QQ聊天只读总结 skill",
+  "author": "安徽新华学院硬件agent研发团队",
+  "license": "UNLICENSED",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "SKILL.md", "cordis.patch.yml", "README.md", "TESTING.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

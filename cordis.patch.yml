@@ -1,0 +1,3 @@
+- insert:
+    - id: chat-review-skill-beta
+      name: './index.js'
